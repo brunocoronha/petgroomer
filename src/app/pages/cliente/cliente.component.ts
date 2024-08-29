@@ -10,7 +10,7 @@ import { FormGroup } from '@angular/forms';
   templateUrl: './cliente.page.html',
   styleUrls: ['./cliente.page.scss'],
 })
-export class ClientePage implements OnInit {
+export class ClientePageComponent implements OnInit {
   clienteForm: FormGroup | undefined;
   cliente: Cliente;
 

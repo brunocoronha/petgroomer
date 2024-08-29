@@ -6,7 +6,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { ClientePageRoutingModule } from './cliente-routing.module';
 
-import { ClientePage } from './cliente.component';
+import { ClientePageComponent } from './cliente.component';
 import { EnderecoPageModule } from '../endereco/endereco.module';
 
 
@@ -19,10 +19,10 @@ import { EnderecoPageModule } from '../endereco/endereco.module';
     EnderecoPageModule
   ],
   declarations: [
-    ClientePage
+    ClientePageComponent
   ],
   exports: [
-    ClientePageModule
+    ClientePageComponent,
   ]
 })
 export class ClientePageModule {}
