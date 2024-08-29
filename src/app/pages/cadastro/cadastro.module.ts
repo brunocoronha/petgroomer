@@ -5,7 +5,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { CadastroPage } from './cadastro.page';
 
-import { EnderecoPageModule } from 'src/app/endereco/endereco.module';
+import { EnderecoPageModule } from 'src/app/pages/endereco/endereco.module';
 
 
 

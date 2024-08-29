@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Cadastro de Cliente</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="clienteForm" (ngSubmit)="salvarCliente()">
+    <ion-item>
+      <ion-label position="floating">Nome</ion-label>
+      <ion-input formControlName="name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email" formControlName="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Telefone</ion-label>
+      <ion-input formControlName="telefone"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Ativo</ion-label>
+      <ion-toggle formControlName="isActive"></ion-toggle>
+    </ion-item>
+
+    <ion-item-divider>
+      <ion-label>Endereço</ion-label>
+    </ion-item-divider>
+
+    <ion-item>
+      <ion-label position="floating">Rua</ion-label>
+      <ion-input formControlName="street" formGroupName="endereco"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Número</ion-label>
+      <ion-input formControlName="number" formGroupName="endereco"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Complemento</ion-label>
+      <ion-input formControlName="complement" formGroupName="endereco"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Bairro</ion-label>
+      <ion-input formControlName="neighborhood" formGroupName="endereco"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Cidade</ion-label>
+      <ion-input formControlName="city" formGroupName="endereco"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">País</ion-label>
+      <ion-input formControlName="country" formGroupName="endereco"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Estado</ion-label>
+      <ion-input formControlName="state" formGroupName="endereco"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">CEP</ion-label>
+      <ion-input formControlName="postalCode" formGroupName="endereco"></ion-input>
+    </ion-item>
+
+    <ion-button expand="block" type="submit">Salvar Cliente</ion-button>
+  </form>
+</ion-content>

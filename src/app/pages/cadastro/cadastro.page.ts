@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { AlertController } from '@ionic/angular';
-import { EnderecoFormComponent } from 'src/app/endereco/endereco-form/endereco-form.component';
+import { EnderecoFormComponent } from 'src/app/pages/endereco/endereco-form/endereco-form.component';
 
 @Component({
   selector: 'app-cadastro',

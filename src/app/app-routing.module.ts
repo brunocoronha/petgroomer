@@ -13,15 +13,15 @@ const routes: Routes = [
   },
   {
     path: 'cliente',
-    loadChildren: () => import('./cliente/cliente.module').then( m => m.ClientePageModule)
+    loadChildren: () => import('./pages/cliente/cliente.module').then( m => m.ClientePageModule)
   },
   {
     path: 'pet',
-    loadChildren: () => import('./pet/pet.module').then( m => m.PetPageModule)
+    loadChildren: () => import('./pages/pet/pet.module').then( m => m.PetPageModule)
   },
   {
     path: 'endereco',
-    loadChildren: () => import('./endereco/endereco.module').then( m => m.EnderecoPageModule)
+    loadChildren: () => import('./pages/endereco/endereco.module').then( m => m.EnderecoPageModule)
   }
 ];
 

@@ -23,11 +23,4 @@ export class EnderecoPage  {
     };
   }
 
-
-  salvarCliente() {
-    // Lógica para salvar o cliente
-  }
-
-
-
 }
