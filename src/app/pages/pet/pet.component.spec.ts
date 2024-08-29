@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { PetPage } from './pet.page';
+import { PetPage } from './pet.component';
 
 describe('PetPage', () => {
   let component: PetPage;

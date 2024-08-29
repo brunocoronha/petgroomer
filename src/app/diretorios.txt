@@ -1,0 +1,92 @@
+Listagem de caminhos de pasta
+O número de série do volume é 6EFB-D328
+C:.
+¦   app-routing.module.ts
+¦   app.component.html
+¦   app.component.scss
+¦   app.component.spec.ts
+¦   app.component.ts
+¦   app.module.ts
+¦   diretorios.txt
+¦   
++---folder
+¦       folder-routing.module.ts
+¦       folder.module.ts
+¦       folder.page.html
+¦       folder.page.scss
+¦       folder.page.spec.ts
+¦       folder.page.ts
+¦       
++---pages
+¦   +---cadastro
+¦   ¦   ¦   cadastro-routing.module.ts
+¦   ¦   ¦   cadastro.component.spec.ts
+¦   ¦   ¦   cadastro.component.ts
+¦   ¦   ¦   cadastro.module.ts
+¦   ¦   ¦   cadastro.page.html
+¦   ¦   ¦   cadastro.page.scss
+¦   ¦   ¦   cpf-formatter.pipe.spec.ts
+¦   ¦   ¦   cpf-formatter.pipe.ts
+¦   ¦   ¦   
+¦   ¦   +---cadastro-cliente
+¦   ¦           cadastro-cliente.component.html
+¦   ¦           cadastro-cliente.component.scss
+¦   ¦           cadastro-cliente.component.spec.ts
+¦   ¦           cadastro-cliente.component.ts
+¦   ¦           
+¦   +---cliente
+¦   ¦   ¦   cliente-routing.module.ts
+¦   ¦   ¦   cliente.component.spec.ts
+¦   ¦   ¦   cliente.component.ts
+¦   ¦   ¦   cliente.model.ts
+¦   ¦   ¦   cliente.module.ts
+¦   ¦   ¦   cliente.page.html
+¦   ¦   ¦   cliente.page.scss
+¦   ¦   ¦   
+¦   ¦   +---cliente-form
+¦   ¦           cliente-form.component.html
+¦   ¦           cliente-form.component.scss
+¦   ¦           cliente-form.component.spec.ts
+¦   ¦           cliente-form.component.ts
+¦   ¦           
+¦   +---directives
+¦   ¦       cpf-mask.directive.spec.ts
+¦   ¦       cpf-mask.directive.ts
+¦   ¦       directives.module.ts
+¦   ¦       phone-mask.directive.spec.ts
+¦   ¦       phone-mask.directive.ts
+¦   ¦       
+¦   +---endereco
+¦   ¦   ¦   endereco-routing.module.ts
+¦   ¦   ¦   endereco.component.spec.ts
+¦   ¦   ¦   endereco.component.ts
+¦   ¦   ¦   endereco.model.ts
+¦   ¦   ¦   endereco.module.ts
+¦   ¦   ¦   endereco.page.html
+¦   ¦   ¦   endereco.page.scss
+¦   ¦   ¦   
+¦   ¦   +---endereco-form
+¦   ¦           endereco-form.component.html
+¦   ¦           endereco-form.component.scss
+¦   ¦           endereco-form.component.spec.ts
+¦   ¦           endereco-form.component.ts
+¦   ¦           
+¦   +---pet
+¦       ¦   pet-routing.module.ts
+¦       ¦   pet.component.spec.ts
+¦       ¦   pet.component.ts
+¦       ¦   pet.model.ts
+¦       ¦   pet.module.ts
+¦       ¦   pet.page.html
+¦       ¦   pet.page.scss
+¦       ¦   
+¦       +---pet-form
+¦               pet-form.component.html
+¦               pet-form.component.scss
+¦               pet-form.component.spec.ts
+¦               pet-form.component.ts
+¦               
++---services
+        cliente.service.spec.ts
+        cliente.service.ts
+        

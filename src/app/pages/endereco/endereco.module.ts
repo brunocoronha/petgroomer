@@ -8,16 +8,16 @@ import { EnderecoFormComponent } from './endereco-form/endereco-form.component';
 
 
 @NgModule({
-  declarations: [
-    EnderecoFormComponent,
-  ],
   imports: [
     CommonModule,
     ReactiveFormsModule,
     IonicModule
   ],
+  declarations: [
+    EnderecoFormComponent,
+  ],
   exports: [
-    EnderecoFormComponent
+    EnderecoPageModule
   ]
 })
 export class EnderecoPageModule {}

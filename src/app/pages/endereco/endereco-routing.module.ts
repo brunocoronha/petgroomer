@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { EnderecoPage } from './endereco.page';
+import { EnderecoPage } from './endereco.component';
 
 const routes: Routes = [
   {

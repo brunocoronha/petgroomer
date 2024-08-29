@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ClientePage } from './cliente.page';
-import { CadastroPage } from '../cadastro/cadastro.page';
+import { ClientePage } from './cliente.component';
+import { CadastroPage } from '../cadastro/cadastro.component';
 
 const routes: Routes = [
   {

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { PetPage } from './pet.page';
+import { PetPage } from './pet.component';
 
 const routes: Routes = [
   {

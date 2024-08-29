@@ -3,9 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
-import { CadastroPage } from './cadastro.page';
+import { CadastroPage } from './cadastro.component';
 
-import { EnderecoPageModule } from 'src/app/pages/endereco/endereco.module';
+import { EnderecoPageModule } from '../endereco/endereco.module';
+import { ClientePageModule } from '../cliente/cliente.module';
+import { ClienteFormComponent } from '../cliente/cliente-form/cliente-form.component';
+import { ClienteFormModule } from '../cliente/cliente-form/cliente-form.module';
+import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.component';
 
 
 
@@ -15,12 +19,16 @@ import { EnderecoPageModule } from 'src/app/pages/endereco/endereco.module';
     FormsModule,
     ReactiveFormsModule,
     IonicModule,
-    EnderecoPageModule
+    EnderecoPageModule,
+    ClientePageModule,
+    ClienteFormModule
   ],
   declarations: [
-    CadastroPage
+    CadastroClienteComponent,
+    ClienteFormComponent
   ],
   exports: [
+    CadastroPageModule
   ]
 })
 export class CadastroPageModule {}

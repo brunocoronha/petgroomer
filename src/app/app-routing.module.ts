@@ -1,3 +1,4 @@
+import { CadastroClienteComponent } from './pages/cadastro/cadastro-cliente/cadastro-cliente.component';
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
@@ -12,8 +13,8 @@ const routes: Routes = [
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
   },
   {
-    path: 'cliente',
-    loadChildren: () => import('./pages/cliente/cliente.module').then( m => m.ClientePageModule)
+    path: 'cadastro',
+    loadChildren: () => import('./pages/cadastro/cadastro.module').then( m => m.CadastroPageModule)
   },
   {
     path: 'pet',
