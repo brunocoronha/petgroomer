@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
-import { CadastroPage } from './cadastro.component';
 
 import { EnderecoPageModule } from '../endereco/endereco.module';
 import { ClientePageModule } from '../cliente/cliente.module';
