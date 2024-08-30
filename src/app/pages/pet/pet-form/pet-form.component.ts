@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { Pet } from '../pet.model';
+import { Pet } from '../../models/pet.model';
 
 @Component({
   selector: 'app-pet-form',

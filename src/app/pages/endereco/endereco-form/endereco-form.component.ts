@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { Endereco } from '../endereco.model';
+import { Endereco } from '../../models/endereco.model';
 
 @Component({
   selector: 'app-endereco-form',

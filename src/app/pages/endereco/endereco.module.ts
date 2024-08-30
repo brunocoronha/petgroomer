@@ -17,7 +17,7 @@ import { EnderecoFormComponent } from './endereco-form/endereco-form.component';
     EnderecoFormComponent,
   ],
   exports: [
-    EnderecoPageModule
+    EnderecoFormComponent
   ]
 })
 export class EnderecoPageModule {}

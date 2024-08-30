@@ -5,10 +5,10 @@ import { IonicModule } from '@ionic/angular';
 
 
 import { EnderecoPageModule } from '../endereco/endereco.module';
-import { ClientePageModule } from '../cliente/cliente.module';
 import { ClienteFormComponent } from '../cliente/cliente-form/cliente-form.component';
-import { ClienteFormModule } from '../cliente/cliente-form/cliente-form.module';
 import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.component';
+import { CadastroClienteModule } from './cadastro-cliente/cadastro-cliente.module';
+
 
 
 
@@ -19,15 +19,14 @@ import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.co
     ReactiveFormsModule,
     IonicModule,
     EnderecoPageModule,
-    ClientePageModule,
-    ClienteFormModule
   ],
   declarations: [
     CadastroClienteComponent,
-    ClienteFormComponent
+    ClienteFormComponent,
+    CadastroClienteComponent
   ],
   exports: [
-    CadastroPageModule
+
   ]
 })
 export class CadastroPageModule {}
